@@ -1,0 +1,129 @@
+body {
+  background-color: #A3D95F;
+  font-family: Inter;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: #fff;
+  border-radius: 20px;
+  width: calc(80vw - 100px);
+  margin: 50px auto;
+}
+
+.header {
+  padding: 40px 0;
+  margin: 60px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.header__logo img {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.header__logo-desc {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+.header__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__actions span {
+  color: #5C5C5C;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header__actions > div:last-child {
+  margin-left: 29px;
+}
+
+.content {
+  padding: 40px 0;
+  margin: 60px;
+}
+
+.sneakers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.sneaker {
+  border-radius: 40px;
+  border: 1px solid #F8F8F8;
+  padding: 30px;
+  width: 210px;
+  margin: 10px;
+}
+.sneaker b {
+  font-size: 12px !important;
+}
+.sneaker__favorite {
+  background-color: #FEF0F0;
+  border-radius: 7px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sneaker__success {
+  background-color: #54CD6A;
+  border-radius: 7px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sneaker__header > img {
+  width: 133px;
+  height: 112px;
+}
+.sneaker__body {
+  margin-top: 14px;
+}
+.sneaker__body a {
+  color: #000;
+  font-size: 14px;
+}
+.sneaker__footer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sneaker__footer span {
+  color: #BDBDBD;
+}
+.sneaker__footer b {
+  margin-top: 5px;
+}
+.sneaker__footer .add-to-cart {
+  border-radius: 8px;
+  border: 1px solid #F2F2F2;
+  padding: 10px;
+  color: #D3D3D3;
+  font-weight: bold;
+}

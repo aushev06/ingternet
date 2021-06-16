@@ -1,0 +1,159 @@
+body {
+    background-color: #A3D95F;
+    font-family: Inter;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: #fff;
+    border-radius: 20px;
+    width: calc(80vw - 100px);
+    margin: 50px auto;
+}
+
+
+.header {
+    padding: 40px 0;
+    margin: 60px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        a {
+            color: #000000;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        img {
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+        }
+
+        &-desc {
+            color: #9D9D9D;
+            font-size: 14px;
+        }
+
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &  span {
+            color: #5C5C5C;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        & > div:last-child {
+            margin-left: 29px;
+        }
+    }
+
+
+}
+
+.content {
+    padding: 40px 0;
+    margin: 60px;
+
+
+}
+
+
+.sneakers {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.sneaker {
+    border-radius: 40px;
+    border: 1px solid #F8F8F8;
+    padding: 30px;
+    width: 210px;
+
+    margin: 10px;
+
+    b {
+        font-size: 12px !important;
+    }
+
+    &__favorite {
+        background-color: #FEF0F0;
+        border-radius: 7px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__success {
+        background-color: #54CD6A;
+        border-radius: 7px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__header > img {
+        width: 133px;
+        height: 112px;
+    }
+
+    &__body {
+        margin-top: 14px;
+        a {
+            color: #000;
+            font-size: 14px;
+
+        }
+    }
+
+    &__footer {
+        margin-top: 14px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: #BDBDBD;
+        }
+
+        b {
+            margin-top: 5px;
+        }
+
+
+        .add-to-cart {
+            border-radius: 8px;
+            border: 1px solid #F2F2F2;
+            padding: 10px;
+            color: #D3D3D3;
+            font-weight: bold;
+        }
+    }
+
+}
